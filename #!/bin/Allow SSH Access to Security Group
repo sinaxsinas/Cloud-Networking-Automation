@@ -1,7 +1,0 @@
-#!/bin/bash 
-aws ec2 authorize-security-group-ingress \  
-  --group-name my-sg \  
-  --protocol tcp \  
-  --port 22 \   
-  --cidr 0.0.0.0/0 
-echo "SSH access enabled for security group."
